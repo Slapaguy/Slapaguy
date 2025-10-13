@@ -1,0 +1,5 @@
+{
+  "name": "Virtual Slapper",
+  "description": "An interactive web application that allows users to simulate slapping a virtual face for comedic effect. Features include a slap animation, a counter, and dynamic reactions.",
+  "requestFramePermissions": []
+}
