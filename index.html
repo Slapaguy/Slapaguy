@@ -227,6 +227,21 @@
         transition-delay: 100ms;
       }
 
+      /* Dodge animations */
+      @keyframes dodge-left {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(-18px); }
+        100% { transform: translateX(0); }
+      }
+      .dodge-left { animation: dodge-left 0.25s ease-out; }
+
+      @keyframes dodge-right {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(18px); }
+        100% { transform: translateX(0); }
+      }
+      .dodge-right { animation: dodge-right 0.25s ease-out; }
+
       /* Victory Animations */
       @keyframes confetti-fall {
         0% { transform: translateY(-100%) rotateZ(0deg); opacity: 1; }
@@ -414,7 +429,7 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/Slapaguy/assets/index-DJ358jl_.js"></script>
+  <script type="module" crossorigin src="/Slapaguy/assets/index-DaFCTiUw.js"></script>
 </head>
   <body>
     <div id="root"></div>
